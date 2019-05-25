@@ -12,28 +12,34 @@ public class TraningSkills : MonoBehaviour {
 
 	public void TraningDamage()
 	{
-		GlobalBalance.balance -= 15;
-		GlobalBalance.damage += 0.1F;
+		if (GlobalBalance.balance >= 15) {
+			GlobalBalance.balance -= 15;
+			GlobalBalance.damage += 1;
+		}
 	}
 
 	public void TraningSpeed()
 	{
-		GlobalBalance.balance -= 15;
-		GlobalBalance.speed += 0.1F;
+		if (GlobalBalance.balance >= 15) {
+			GlobalBalance.balance -= 15;
+			GlobalBalance.speed += 0.1F;
+		}
 	}
 
 	public void TraningJump()
 	{
-		GlobalBalance.balance -= 15;
-		GlobalBalance.jumpForce += 0.1F;
+		if (GlobalBalance.balance >= 15) {
+			GlobalBalance.balance -= 15;
+			GlobalBalance.jumpForce += 0.1F;
+		}
 	}
 
 	private void Update()
 	{
 		balance.text = "Balance: " + GlobalBalance.balance.ToString ();
-		dmg.text = "Damage: " + GlobalBalance.damage.ToString();
-		spd.text = "Speed: " + GlobalBalance.speed.ToString();
-		jmp.text = "Jump force: " + GlobalBalance.jumpForce.ToString();
+		dmg.text = "Damage: " + GlobalBalance.damage.ToString() + ". Price: 15";
+		spd.text = "Speed: " + GlobalBalance.speed.ToString() + ". Price: 15";
+		jmp.text = "Jump force: " + GlobalBalance.jumpForce.ToString() + ". Price: 15";
 	}
 	
 }

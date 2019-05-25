@@ -365,9 +365,9 @@ MonoBehaviour:
     height: 558
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 90250000
     m_LastClickedID: 0
-    m_ExpandedIDs: e0e6faff58e7faff24e8faff2ae8faff48e8faff4ee8faff52e8faff84eafafffceafaffc8ebfaffceebfaffecebfafff2ebfafff6ebfaffaafcfaff20fdfaffecfdfafff2fdfaff10fefaff16fefaff1afefaff0c32fbff8233fbfffa33fbffc634fbffcc34fbffd034fbffd634fbffda34fbffae4dfbffc066fbff0889fbff649bfbff169ffbff34f5fbff66f6fbffc8f7fbfff6f8fbffc647fcff9e62fcff9c67fcffe068fcff6a69fcff226bfcff346cfcfff67ffcff2480fcffc480fcff5a82fcffde82fcff4ea8fcfff8a8fcff2eadfcffa6adfcff72aefcff90aefcff94aefcff98aefcff30d8fcfff8dffcff04e4fcff7ee7fcffa4eafcffc4edfcffc0effcff6af0fcffbcf7fcff44f8fcff2a19fdff1443fdffc07cfdff548cfdff789afdffea9afdffb29bfdffcc9bfdffd09bfdffd69bfdff829ffdff5ca1fdff4ea9feff78edffffe4fbffff000000009c250000702a0000042b00005a370000ea3c0000c63d0000c8400000f64000001a47000028480000305d000006690000b46e0000c4730000827600002a8d0000388f00004a980000f09c0000eaa20000d2a40000f8a500008aa600003eaf00002cb0000004bc000052c9000090d0000070e00000eae400008ee80000
+    m_ExpandedIDs: 00a5ffffa0a6ffff2aefffff84faffffe4fbffff0000000072260000d6270000be2c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +386,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-  - Menu
+  - TraningPlace
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -451,9 +451,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.872036
+    m_Target: 97.1005
     speed: 2
-    m_Value: 10.872036
+    m_Value: 97.1005
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -507,14 +507,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "D:\\#\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Unity\\Fighting
-    2D"
+  m_LastProjectPath: "C:\\Users\\\u0421\u0442\u0430\u0441\\fighting\\Fighting2D"
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c0240000
-    m_LastClickedID: 9408
-    m_ExpandedIDs: 00000000c024000000ca9a3bffffff7f
+    m_SelectedIDs: ce240000
+    m_LastClickedID: 9422
+    m_ExpandedIDs: 00000000ce24000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -542,7 +541,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c0240000
+    m_ExpandedIDs: 00000000ce240000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
