@@ -5,12 +5,15 @@ using UnityEngine.UI;
 
 public class AttackTrigger : MonoBehaviour {
 
-	private float dmg = GlobalBalance.damage;
+	private float dmg = GlobalBalance.damage + GlobalBalance.weaponDamage;
+	private float weaponDmg = GlobalBalance.weaponDamage;
 	public Text damage;
+	public Text weaponDamage;
 
 	void Start()
 	{
 		damage.text = "Damage: " + dmg.ToString ();
+		weaponDamage.text = "(Weapon damage: " + weaponDmg.ToString () + ")";
 	}
 
     private void OnTriggerEnter2D(Collider2D col)

@@ -34,4 +34,10 @@ public class StartGame : MonoBehaviour {
 	{
 		SceneManager.LoadScene ("TraningPlace");
 	}
+
+	public void Shop()
+	{
+		SceneManager.LoadScene ("Shop");
+	}
+
 }

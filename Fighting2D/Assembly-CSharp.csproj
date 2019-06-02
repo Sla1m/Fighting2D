@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\OutputBalance.cs" />
      <Compile Include="Assets\Scripts\StartGame.cs" />
      <Compile Include="Assets\Scripts\TraningSkills.cs" />
+     <Compile Include="Assets\Scripts\buyWeapon.cs" />
      <Compile Include="Assets\Scripts\moveCharacter.cs" />
      <Compile Include="Assets\Scripts\playerAttack.cs" />
  <Reference Include="UnityEngine.UI">
