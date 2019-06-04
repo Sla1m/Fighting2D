@@ -40,4 +40,9 @@ public class StartGame : MonoBehaviour {
 		SceneManager.LoadScene ("Shop");
 	}
 
+	public void Event()
+	{
+		SceneManager.LoadScene ("Event");
+	}
+
 }

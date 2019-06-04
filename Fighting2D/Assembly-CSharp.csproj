@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AttackTrigger.cs" />
      <Compile Include="Assets\Scripts\Convert.cs" />
+     <Compile Include="Assets\Scripts\EventBoss.cs" />
      <Compile Include="Assets\Scripts\Fist1.cs" />
      <Compile Include="Assets\Scripts\Fist2.cs" />
      <Compile Include="Assets\Scripts\FolloTheDamnTrain.cs" />
